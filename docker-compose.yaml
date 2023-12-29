@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  miniircd:
+    image: gitea.findlayis.me/chuck/miniircd-docker:latest
+    container_name: miniircd
+    environment:
+      - PASSWORD=changeme
+    ports:
+      - "6667:6667"
+    restart: unless-stopped
