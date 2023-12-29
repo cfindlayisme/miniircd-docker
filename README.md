@@ -9,3 +9,6 @@ https://github.com/jrosdahl/miniircd/tree/master in a docker container.
 
 ## License
 Same as miniircd: GPL v2
+
+## Why?
+Makes my declaritive infrastructure easier to manage. I can just add this to my docker-compose.yaml and have a irc server running.
