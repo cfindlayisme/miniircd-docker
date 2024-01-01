@@ -11,4 +11,6 @@ https://github.com/jrosdahl/miniircd/tree/master in a docker container.
 Same as miniircd: GPL v2
 
 ## Why?
-Makes my declaritive infrastructure easier to manage. I can just add this to my docker-compose.yaml and have a irc server running.
+Makes my declaritive infrastructure easier to manage. I can just add this to my docker-compose.yaml and have an irc server running.
+
+Mainly using it for testing things locally as needed as miniircd has limited features. Great for this purpose though!
