@@ -2,7 +2,9 @@
 https://github.com/jrosdahl/miniircd/tree/master in a docker container.
 
 ## Usage
-`docker run --rm -it -p 6667:6667/tcp -e PASSWORD="test"`
+`docker run --rm -it -p 6667:6667/tcp -e PASSWORD="test" gitea.findlayis.me/chuck/miniircd-docker:latest`
+
+Or, see `docker-compose.yam` for a compose example.
 
 ## Environment variables
 * `PASSWORD` - Password for the server. Default: none, will start without a password
